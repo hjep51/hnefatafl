@@ -1,0 +1,4 @@
+= Hnefatafl
+
+image::docs/gfx/Hnefatafl.jpg[width=1024]
+
