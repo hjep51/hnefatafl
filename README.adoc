@@ -1,4 +1,6 @@
 = Hnefatafl
 
 image::docs/gfx/Hnefatafl.jpg[width=1024]
+---
 
+Hnefatafl is a game of pure strategy, played on a board of squares. The game is asymmetrical, with one player controlling a king and his defenders, and the other player controlling a larger force of attackers. The objective of the game is for the king to escape to one of the corners of the board, while the attackers must capture the king before he escapes.
