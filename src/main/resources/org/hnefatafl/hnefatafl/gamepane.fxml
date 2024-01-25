@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.layout.BorderPane?>
-<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
 
-<Pane xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" id="gamepane" fx:id="gamepane" maxHeight="824.0" maxWidth="824.0" minHeight="824.0" minWidth="824.0" prefHeight="824.0" prefWidth="824.0" style="-fx-background-color: #3d3d3d;" BorderPane.alignment="CENTER"  fx:controller="org.hnefatafl.hnefatafl.controller.GamePaneController">
-   <children>
+<GridPane xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" id="gamepane" fx:id="gamepane" maxHeight="824.0" maxWidth="824.0" minHeight="824.0" minWidth="824.0" prefHeight="824.0" prefWidth="824.0" style="-fx-background-color: #3d3d3d;" fx:controller="org.hnefatafl.hnefatafl.controller.GamePaneController">
 
-   </children>
-</Pane>
+</GridPane>
