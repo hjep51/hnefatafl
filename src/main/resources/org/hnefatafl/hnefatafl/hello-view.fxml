@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.VBox?>
-
 <?import javafx.scene.control.Button?>
-<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="org.hnefatafl.hnefatafl.HelloController">
-    <padding>
-        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
-    </padding>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
 
-    <Label fx:id="welcomeText"/>
-    <Button text="Hello!" onAction="#onHelloButtonClick"/>
-</VBox>
+<BorderPane maxHeight="1024.0" maxWidth="1024.0" minHeight="1024.0" minWidth="1024.0" prefHeight="1024.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.hnefatafl.hnefatafl.controller.HelloController">
+   <top>
+      <Pane id="rightpane" maxHeight="200.0" maxWidth="1024.0" minHeight="200.0" minWidth="1024.0" prefHeight="200.0" prefWidth="1024.0" style="-fx-background-color: #3d3d3d;" BorderPane.alignment="CENTER">
+         <children>
+         </children>
+      </Pane>
+   </top>
+   <left>
+      <Pane id="leftpane" maxHeight="824.0" maxWidth="200.0" minHeight="824.0" minWidth="200.0" prefHeight="824.0" prefWidth="200.0" style="-fx-background-color: #3d3d3d;" BorderPane.alignment="CENTER" />
+   </left>
+   <center>
+      <fx:include fx:id="fan3"  source="gamepane.fxml" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>

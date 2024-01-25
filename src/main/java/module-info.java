@@ -8,4 +8,6 @@ module org.hnefatafl.hnefatafl {
 
     opens org.hnefatafl.hnefatafl to javafx.fxml;
     exports org.hnefatafl.hnefatafl;
+    exports org.hnefatafl.hnefatafl.controller;
+    opens org.hnefatafl.hnefatafl.controller to javafx.fxml;
 }
